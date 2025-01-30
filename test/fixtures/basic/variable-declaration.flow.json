@@ -1,0 +1,31 @@
+{
+    "components": [
+        {
+            "id": "variable_declaration_0_...",
+            "type": "variable",
+            "name": "greeting",
+            "props": {
+                "name": "greeting",
+                "value": "'Hello'"
+            },
+            "position": { "x": 100, "y": 100 },
+            "connections": [
+                {
+                    "id": "function_call_1_...",
+                    "type": "argument"
+                }
+            ]
+        },
+        {
+            "id": "function_call_1_...",
+            "type": "function_call",
+            "name": "console.log",
+            "props": {
+                "functionName": "console.log",
+                "arguments": ["greeting"]
+            },
+            "position": { "x": 300, "y": 100 },
+            "connections": []
+        }
+    ]
+}
